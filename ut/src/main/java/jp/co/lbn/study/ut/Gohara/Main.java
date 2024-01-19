@@ -18,6 +18,7 @@ public class Main {
         int flg = 0;
         while(flg == 0) {
             viewer.askQuestion1();
+            viewer.Secret();
             viewer.askQuestion2();
             viewer.askQuestion3();
             viewer.askQuestion4();
